@@ -93,7 +93,7 @@ if( $uploadTime != 0 ) {
     $speed = $sizeOfFile;
 }
 
-LogIt('noexit', "Upload done,,,Upload,Success,$speed");
+LogIt('noexit', "Upload done,,,,Upload,Success,$speed");
 
 $sizeOfFile = $ftp->size($file{dest});
 $startTime = time;
@@ -110,7 +110,7 @@ if( $downldTime != 0 ) {
     $speed = $sizeOfFile;
 }
 
-LogIt('noexit', "Download done,,,Download,Success,$speed");
+LogIt('noexit', "Download done,,,,Download,Success,$speed");
 
 $ftp->quit() or 
 LogIt('exit', "Error disconnecting.");
