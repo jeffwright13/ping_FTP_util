@@ -23,3 +23,5 @@ perl pingFtpUtil.pl <host ip> <username> <password> <file name> <ping count (opt
 done
 
 The above will run the script 10 times.
+
+NOTE: for Windows use, install GitHub for Windows (https://windows.github.com/) in order to get a Linux-like environment on your PC. Then install the GNU Core Utils (http://gnuwin32.sourceforge.net/packages/coreutils.htm). This adds the "seq" command, which loop.sh relies on.
