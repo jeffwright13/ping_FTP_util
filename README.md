@@ -1,4 +1,11 @@
 # ping_FTP_util
+TODO:
+====
+Fix scipt to call appropriate "count" variable for ping command.
+In Linux, 'ping -c' is how to specify # ping counts.
+In the Windows GNU Core Utils, it's 'ping -n'.
+Investigate if Perl has module to detect the underlying OS, and then fix script to use appropriate flag option based on that.
+
 Repo to hold the Perl script "pingFtpUtil.pl"
 
 usage: perl pingFtpUtil <host ip> <username> <password> <file name>
