@@ -19,5 +19,9 @@ nytprof.out
 *.bs
 *.csv
 *.ods*
+<<<<<<< HEAD
 *.pdf
 *.jpg
+=======
+*~
+>>>>>>> efc23c41545b6d4bf8727a560acb54f85960d578
